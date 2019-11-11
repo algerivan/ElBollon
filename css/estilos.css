@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(204,236,239);
+}
+
+#inner{
+    border: 5px solid white;
+}
+
+#principal{
+    margin: 0px auto;
+    padding: 0px;
+    max-width: 1024px;
+    background-color: rgb(193,179,215);
+    height: 1000px;
+}
+
+#barra{
+    background-color: rgb(249, 140, 182);
+}
+
+#barra a{
+    color: white;
+}
+
+#barra div ul li a{
+    color: white;
+}
+
+#articulos #quienes,#mision{
+    border-right: 5px dotted white;
+}
+
+#ninguno{
+    border-right: none;
+}
