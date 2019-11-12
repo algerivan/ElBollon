@@ -10,7 +10,8 @@ body{
     margin: 0px auto;
     padding: 0px;
     max-width: 1024px;
-    background-color: rgb(193,179,215);
+    background-color: rgb(111,183,214);
+    height: 1125px;
 }
 
 #barra{
@@ -44,15 +45,17 @@ body{
     font-weight: bold;
 }
 
-#mision h3{
-    color: white;
+#mision{
+    font-size: 27px;
+    color: rgb(111,183,214);
     font-family: sans-serif;
     letter-spacing: 3px;
     font-weight: bold;
 }
 
-#vision h3{
-    color: white;
+#vision{
+    font-size: 27px;
+    color: rgb(111,183,214);
     font-family: sans-serif;
     letter-spacing: 3px;
     font-weight: bold;
@@ -61,4 +64,10 @@ body{
 #articulos article hr{
     background-color: white;
     color: white;
+}
+
+#separador{
+    border-top: 10px dotted white;
+    padding-right: 10px;
+    padding-left: 10px;
 }
