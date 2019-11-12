@@ -11,7 +11,7 @@ body{
     padding: 0px;
     max-width: 1024px;
     background-color: rgb(111,183,214);
-    height: 1125px;
+    height: auto;
 }
 
 #barra{
