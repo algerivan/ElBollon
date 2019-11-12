@@ -11,7 +11,6 @@ body{
     padding: 0px;
     max-width: 1024px;
     background-color: rgb(193,179,215);
-    height: 1000px;
 }
 
 #barra{
@@ -26,10 +25,40 @@ body{
     color: white;
 }
 
-#articulos #quienes,#mision{
+#articulos #mision{
     border-right: 5px dotted white;
+}
+
+#quienes{
+    margin-bottom: 10px;
 }
 
 #ninguno{
     border-right: none;
+}
+
+#quienes h3{
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+#mision h3{
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+#vision h3{
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+#articulos article hr{
+    background-color: white;
+    color: white;
 }
